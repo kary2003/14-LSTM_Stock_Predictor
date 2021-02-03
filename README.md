@@ -46,6 +46,11 @@ The best performing window size is 1.
 ### Images
 #### Closing Price comparison 1 day & 10 days at 10 epochs:
 ![image](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Images/1-1day.png)
+
+#### FNG Closing Prices comparison 1 day at 10 & 20 epochs:
+
+![3](https://user-images.githubusercontent.com/70820754/106699370-f932e600-659f-11eb-8b44-231d89b2d62e.png)
+
 #### Closing Price comparison 1 day & 10 days at 20 epochs:
 ![image](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Images/4-10%20day.png)
 
