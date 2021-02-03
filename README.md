@@ -2,13 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/70820754/106659604-35445780-655c-11eb-901d-a0eae9517092.png)
 
-## Instructions
+## LSTM units in RNN(Recurrent Neural Network) Models. 
 
-### Data Preperation
-
-### LSTM units in RNN(Recurrent Neural Network) Models. 
-
-The data for this project will allow us to create RNN models to predict closing prices. One of the notebooks will use the fear and greed values to predict the closing prices and the second notebook will use the historical data to predict the next closing price. 
+The data for this project will allow us to create RNN models to predict closing prices. One of the notebooks will use the fear and greed values to predict the closing prices and the second notebook will use the historical data to predict the next day's closing price. 
 
 For both notebooks I will utilize this function:
 
@@ -20,28 +16,25 @@ Each model will use 70% of the data for training and 30% for testing.
 
 Data will be scaled using MinMaxScaler to scale the x & y values for the model. 
 
+#### Data
 
-### Build and train custom LSTM RNNs
-
-Instructions via readme on a assignemnt. 
-"In each Jupyter Notebook, create the same custom LSTM RNN architecture. In one notebook, you will fit the data using the FNG values. In the second notebook, you will fit the data using only closing prices.
-
-Use the same parameters and training steps for each model. This is necessary to compare each model accurately.
-
+[btc_historic.csv](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Starter%20Files/btc_historic.csv)
+[btc_sentiment.csv](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Starter%20Files/btc_sentiment.csv)
 
 ## Conclusion: Performance Model Evaluation
 
 
-
 ### Which model has a lower loss?
-
+The closing price model has a lower loss. 
 
 
 ### Which model tracks the actual values better over time?
+The Closing price model. 
 
 
 
 ### Which window size works best for the model?
+The best performing window size is 1.
 
 - - -
 
@@ -53,7 +46,11 @@ Use the same parameters and training steps for each model. This is necessary to 
 
 - - -
 
-
+### Images
+#### Closing Price comparison 1 day & 10 days at 10 epochs:
+![image](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Images/1-1day.png)
+#### Closing Price comparison 1 day & 10 days at 20 epochs:
+![image](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Images/4-10%20day.png)
 
 ### Resources
 
