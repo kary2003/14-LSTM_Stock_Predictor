@@ -19,6 +19,7 @@ Data will be scaled using MinMaxScaler to scale the x & y values for the model.
 #### Data
 
 [btc_historic.csv](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Starter%20Files/btc_historic.csv)
+
 [btc_sentiment.csv](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Starter%20Files/btc_sentiment.csv)
 
 ## Conclusion: Performance Model Evaluation
