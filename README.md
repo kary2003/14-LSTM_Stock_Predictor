@@ -22,21 +22,6 @@ Data will be scaled using MinMaxScaler to scale the x & y values for the model.
 
 [btc_sentiment.csv](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Starter%20Files/btc_sentiment.csv)
 
-## Conclusion: Performance Model Evaluation
-
-
-### Which model has a lower loss?
-The closing price model has a lower loss. 
-
-
-### Which model tracks the actual values better over time?
-The Closing price model. 
-
-
-
-### Which window size works best for the model?
-The best performing window size is 1.
-
 - - -
 
 ### Files
@@ -46,6 +31,17 @@ The best performing window size is 1.
 [FNG Starter Notebook](https://github.com/kary2003/14-LSTM_Stock_Predictor/blob/main/Starter%20Files/lstm_stock_predictor_fng.ipynb)
 
 - - -
+
+## Conclusion: Performance Model Evaluation
+
+### Which model has a lower loss?
+The closing price model has a lower loss. 
+
+### Which model tracks the actual values better over time?
+The Closing price model. 
+
+### Which window size works best for the model?
+The best performing window size is 1.
 
 ### Images
 #### Closing Price comparison 1 day & 10 days at 10 epochs:
